@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-openai.api_key = "sk-JmlwEmWiNtFqSD7IDaF981Dd8a7447FfBcE768755cB38010"
-openai.api_base = "https://api.keya.pw/v1"
+openai.api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
 def find_product_section(company_name):
     driver = webdriver.Chrome()  # 使用Chrome浏览器，确保已安装Chrome驱动程序并将其路径添加到系统PATH中
     driver.get("https://www.google.com")
